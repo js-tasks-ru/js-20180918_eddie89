@@ -1,8 +1,8 @@
 "use strict";
 
-describe("1-module-2-task", function() {
+describe("1-module-2-task", function () {
 
-    it("если имя корректное то true", function() {
+    it("если имя корректное то true", function () {
         expect(isValid('Ilia')).toEqual(true);
     });
 
@@ -10,7 +10,7 @@ describe("1-module-2-task", function() {
         expect(isValid('Ilia Burlak')).toEqual(false);
     });
 
-    it("если меньше 4 симовлов то false", function () {
+    it("если меньше 4 символов то false", function () {
         expect(isValid('Ili')).toEqual(false);
     });
 
