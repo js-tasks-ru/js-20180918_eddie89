@@ -7,5 +7,20 @@
  */
 function getMinMax(str) {
 
-}
+    function isString(value) {
+        return typeof value === "string";
+    }
 
+    if (!isString(str)) {
+        return;
+    }
+
+    let val = parseFloat(str);
+    let min;
+    let max;
+
+    while (!isNan(val)) {
+
+    }
+
+}
